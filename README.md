@@ -84,7 +84,7 @@ WE HAD EVERYTHING BEFORE US, WE HAD NOTHING BEFORE US,
 WE WERE ALL GOING DIRECT TO HEAVEN, WE WERE ALL GOING DIRECT THE OTHER WAY
 – IN SHORT, THE PERIOD WAS SO FAR LIKE THE PRESENT PERIOD, THAT SOME OF ITS NOISIEST AUTHORITIES INSISTED ON ITS BEING RECEIVED, FOR GOOD OR FOR EVIL, IN THE SUPERLATIVE DEGREE OF COMPARISON ONLY.
 
-Lequel dice Afrikaans debido a que al ser un texto en mayusculas, Lequel no haya coincidencias con nigun trigrama en ingles y por lo tanto lo empareja con el qiue mas coincidencias tiene, en este caso, afrikaans.
+Lequel dice Afrikaans debido a que al ser un texto en mayusculas, Lequel no halla coincidencias con nigun trigrama en ingles y por lo tanto lo empareja con el qiue mas coincidencias tiene, en este caso, afrikaans.
 
 ## Bonus points
 
