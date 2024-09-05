@@ -2,8 +2,9 @@
 
 ## Integrantes del grupo y contribución al trabajo de cada integrante
 
-* Nicolas Neme Gabriel: Realizacion del codigo
-* Dante Barili: Realizacion del codigo
+* Nicolas Neme Gabriel y Dante Barili: ambos contribuimos equitativamente ya que el trabajo
+no fue distribuido y realizado individualmente, sino que fue realizado en conjunto en horario de clases prácticas
+y en espacios libres.
 
 ## Respuestas del enunciado
 
@@ -23,7 +24,7 @@ Respuesta: coreano
 
 3. ¿En qué idioma está el siguiente texto? Respuesta: birmano
 
-၁၉၄၀ ခုနှစ်တွင် ဗိုလ်ချုပ်အောင်ဆန်းဦးဆောင်သည့် ရဲဘော်သုံးကျိပ်အဖွဲ့ဝင်တို့သည် ဗမာ့လွတ်မြောက်ရေးတပ်မတော် (ဘီအိုင်အေ) ကို တည်ထောင်ခဲ့ကြသည်။[၂၀][၂၀] ရဲဘော်သုံးကျိပ်သည် ဂျပန်နိုင်ငံတွင် စစ်သင်တန်းများတက်ရောက်ခဲ့ကြသည်။[၂၀]
+၁၉၄၀ ခုနှစ်တွင် ဗိုလ်ချုပ်အောင်ဆန်းဦးဆောင်သည့် ရဲဘော်သုံးကျိပ်အဖွဲ့ဝင်တို့သည် ဗမာ့လွတ်မြောက်ရေးတပ်မတော် (ဘီအိုင်အေ) ကို တည်ထောင်ခဲ့ကြသည်။[၂၀][၂၀]ရဲဘော်သုံးကျိပ်သည် ဂျပန်နိုင်ငံတွင် စစ်သင်တန်းများတက်ရောက်ခဲ့ကြသည်။[၂၀]
 
 Respuesta: birmano
 
@@ -91,3 +92,16 @@ Respuesta: Lequel dice afrikaans debido a que al ser un texto en mayusculas, Leq
 
 ## Bonus points
 
+- Averiguamos un poco más sobre la similitud coseno, y era menos complejo de lo que pensabamos. 
+Permite obtener que tan similares son dos vectores utilizando la funcion coseno. 
+Se utiliza la ecuacion de producto punto ya vista en la materia álgebra lineal, y se dispone
+la fórmula dejando el coseno de un lado. Es muy utilizado en el ámbito computacional, principalmente en
+programas de inteligencia artificial y 'machine learning'.
+
+
+- Si el texto a analizar es muy grande, es cierto que se podría producir un cuello de botella,
+pero creemos que no es necesaria una optimización. Probamos con textos de un millón de palabras,
+y el tiempo que se tardaba en analizarlo el programa no era mayor a 10 segundos. Es cierto que el
+programa analizar el texto hasta cierta cantidad de carácteres y parar, ya que tanta cantidad de texto
+podría no llegar a servir para mejorar la precisión, pero en nuestra opinión es mejor dejar esta parte a
+criterio del usuario, ya que nuestro objetivo es que el programa diga el idioma lo mas preciso posible. 

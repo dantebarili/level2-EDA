@@ -25,14 +25,14 @@ using namespace std;
 TrigramProfile buildTrigramProfile(const Text &text)
 {
 
-    // Cambie std::codecvt_utf8_utf16<wchar_t> por std::codecvt_utf8<wchar_t>
-    // porque se crashea si con simbolos unicode muy grandes
+    // Se cambió std::codecvt_utf8_utf16<wchar_t> por std::codecvt_utf8<wchar_t>
+    // porque el programa se crasheaba si con simbolos unicode muy grandes (ej: un smiley)
 
     // De cppreference.com:
     // codecvt_utf8_utf16 converts between UTF-8 and UTF-16
     // codecvt_utf8 converts between UTF-16 and UCS-2/UCS-4
-
     wstring_convert<std::codecvt_utf8<wchar_t>> converter;
+
     // Creamos el perfil de trigramas del texto ingresado
     TrigramProfile profile;
 
